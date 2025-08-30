@@ -7,6 +7,6 @@ Iterative projection algorithm to shape the far-field intensity of a laser into 
 - **Far-field masks**: upper & lower amplitude bounds defining the desired main lobe and sidelobe levels in dB.
 - **Aperture support**: binary mask for physical device support enforcement.
 
-## Laser Beam Fraunhofer Shaper - GPU Execution - No Aperture Field Symmetry Enforced (`laserBeamShapingUnsymmetricalCuPy.ipynb`)
+## Laser Beam Fraunhofer Shaper - GPU Execution (`laserBeamShapingCuPy.ipynb`)
 
-Same as `laserBeamShapingUnsymmetrical.ipynb`, but now the execution in on GPU and is performed using the CuPy library.
+Same as `laserBeamShaping.ipynb`, but now the execution in on GPU and is performed using the CuPy library.
