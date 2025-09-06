@@ -12,3 +12,10 @@ Iterative projection algorithm to shape the far-field intensity of a laser into 
 ## Laser Beam Fraunhofer Shaper based on an Iterative Projection Algorithm - GPU Execution (`laserBeamShapingCuPy.ipynb`)
 
 Same as `laserBeamShaping.ipynb`, but now the execution in on GPU and is performed using the CuPy library.
+
+## Laser Beam Fraunhofer Shaper based on a Generalized Projection Algorithm - CPU Execution (`laserBeamShapingGeneralized.ipynb`)
+
+Generalized projection algorithm to shape the far-field intensity of a laser into a specified profile. CPU execution. The algorithm uses:
+
+- **Far-field masks**: upper & lower amplitude bounds defining the desired main lobe and sidelobe levels in dB.
+- **Optimization algorithm**: to determine the aperture field from the constrained far-field.
