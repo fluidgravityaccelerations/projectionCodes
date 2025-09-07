@@ -19,3 +19,7 @@ Generalized projection algorithm to shape the far-field intensity of a laser int
 
 - **Far-field masks**: upper & lower amplitude bounds defining the desired main lobe and sidelobe levels in dB.
 - **Optimization algorithm**: to determine the aperture field from the constrained far-field.
+
+## Laser Beam Fraunhofer Shaper based on a Generalized Projection Algorithm - GPU Execution (`laserBeamShapingGeneralizedJax.ipynb`)
+
+Same as `laserBeamShapingGeneralized.ipynb`, but now the execution in on GPU and is performed using the Jax library.
