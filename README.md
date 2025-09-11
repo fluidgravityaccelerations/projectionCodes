@@ -1,4 +1,4 @@
-# Iterative Algorithms based on projections
+# Iterative algorithms based on projections
 
 See D.R. Prado, "The generalized intersection approach for electromagnetic array antenna beam-shaping synthesis: a review," IEEE Access, vol. 10, pp. 87053-87068, 2022
 
